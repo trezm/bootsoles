@@ -11,7 +11,7 @@ Components to aid in quick deployment of mongoose REST applications
 - `BootsolesController.update()`
 - `BootsolesController.destroy()`
 
-*Example*
+##### Example
     var MyModel = require('./model.js'); // This is any mongoose model
     var BootsolesController = require('bootsoles').BootsolesController;
 
@@ -56,7 +56,7 @@ Components to aid in quick deployment of mongoose REST applications
 
 - `updateToModelMap`: Similar to `paramToModelMap` but for the fields to be updated.
 
-*Example*
+##### Example
     var MyController = require('./my_controller.js');
     var BootsolesRoutes = require('bootsoles').BootsolesRoutes;
 
