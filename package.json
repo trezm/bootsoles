@@ -1,15 +1,12 @@
 {
-    "name": "bootsoles-tools",
-    "description": "Generate models and controllers",
-    "main": "./lib/bs",
+    "name": "bootsoles",
+    "description": "General skeletons and default methods for BootsolesJS",
     "author": "Pete Mertz",
-    "version": "0.1.4",
+    "version": "0.1.9",
+    "main": "./lib/bootsoles.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/trezm/bootsoles-tools.git"
-    },
-    "bin": {
-    	"bs": "bin/bs"
     },
     "licenses": [{
         "type": "MIT",
